@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.footerSection {
+  position: static;
+  z-index: 1000;
+  width: 100%;
+  height: 80vh;
+  bottom: 0;
+  background: #060809;
+}
+
+.footerInfos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 50px;
+}
+
+.app-downloand .manufactured {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.app-downloand .manufactured button {
+  padding: 10px 15%;
+  background: var(--bs-light);
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 40px;
+}
+
+.mainDiv {
+  padding: 60px;
+}
+
+.logoSection .sousLogo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoSection .sousLogo p {
+  width: 25rem;
+  color: #a0aec0;
+  margin: 15px 0 40px 0;
+}
+
+.footerInfos ul li {
+  list-style: none;
+}
+
+.features ul li a {
+  text-decoration: none;
+}
+
+.footerInfos h3,
+.footerInfos a {
+  color: #e8e9ed;
+}
+
+.footerInfos h3 {
+  margin: 15px 0;
+}
+
+.footerInfos li {
+  margin-bottom: 10px;
+}
+
+.bottomFooter {
+  padding: 60px;
+}
+
+.bottomFooter .svgIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #d0d3d4;
+  width: 100%;
+  margin-top: 8rem;
+  color: #d0d3d4;
+  padding: 1.5rem;
+}
+
+.svgIcon .footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.5rem;
+}
+
+.svgIcon .iconFooter ul li {
+  list-style: none;
+}
+
+.mainMain .mainService {
+  height: 100vh;
+}
+
+.orange {
+  background: rgba(251, 142, 11, 0.5)
+    url(https://apexnetwork.co/images/topographies/orange.png) no-repeat local
+    center / cover;
+  width: 40%;
+  height: 65vh;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-orange {
+  width: 315px;
+  height: 410px;
+}
+
+.mainService .sousService h2 {
+  width: 15rem;
+  margin-bottom: 20px;
+}
+.mainService .sousService p {
+  width: 28rem;
+  margin-bottom: 55px;
+  text-align: justify;
+}
+
+.mainService {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.orange1 {
+  background: #a8a6ff url(https://apexnetwork.co/images/topographies/orange.png)
+    no-repeat local center / cover;
+  width: 40%;
+  height: 65vh;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-orange {
+  width: 315px;
+  height: 410px;
+}
+
+.mainService1 .sousService1 h2 {
+  width: 20rem;
+  margin-bottom: 20px;
+}
+.mainService1 .sousService1 p {
+  width: 28rem;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.mainService1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.orange2 {
+  background: #fed3b9 url(https://apexnetwork.co/images/topographies/orange.png)
+    no-repeat local center / cover;
+  width: 40%;
+  height: 65vh;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-orange {
+  width: 315px;
+  height: 410px;
+}
+
+.mainService2 .sousService2 h2 {
+  width: 20rem;
+  margin-bottom: 20px;
+}
+.mainService2 .sousService2 p {
+  width: 25rem;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.mainService2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 100px 0;
+}

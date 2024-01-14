@@ -1,0 +1,68 @@
+.login-page {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-page h1 {
+  color: #333;
+}
+
+.login-page h5 {
+  color: #555;
+}
+
+.login-page button {
+  margin: 5px;
+}
+
+.login-page form {
+  margin-top: 20px;
+}
+
+.login-page input,
+.login-page select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-page span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.login-page label {
+  display: flex;
+  align-items: center;
+}
+
+.login-page p {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.login-page button[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-page div:last-child {
+  margin-top: 20px;
+}
+
+.login-page div:last-child p {
+  display: inline-block;
+  margin-right: 5px;
+  color: #555;
+}
