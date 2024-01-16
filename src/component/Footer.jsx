@@ -40,7 +40,7 @@ const FooterSection = ({ title, items }) => (
 function Footer() {
   return (
     <footer className="footerSection">
-      <div className="mainDiv">
+      <div className="mainDivFooter">
         <div className="logoSection">
           <div className="sousLogo">
             <img
