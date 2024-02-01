@@ -1,0 +1,56 @@
+.mainSectionFour div > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainSectionFour {
+  padding: 96px 0;
+  position: relative;
+}
+.oneSvg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.twoSvg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.userFeedback {
+  width: 230px;
+  height: 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.star {
+  color: gold;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.community h1 {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  padding: 50px 5px;
+}

@@ -34,6 +34,13 @@
   );
 }
 
+.footerSection *,
+.footerSection *:before,
+.footerSection *:after {
+  margin: 0;
+  padding: 0;
+}
+
 .footerSection {
   position: static;
   width: 100%;

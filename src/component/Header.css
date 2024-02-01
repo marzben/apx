@@ -61,6 +61,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 8%;
+  z-index: 1;
 }
 
 .logo {
@@ -123,20 +124,23 @@ a {
   margin-top: 90px;
 }
 
+/* -------------------------------section home--------------------------------- */
+
 .mainSection {
   background: #fff5e1;
-  min-height: 100svh;
+  min-height: 100vh;
 }
 
 .mainSection .mainDiv {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 130px;
 }
 
 .phone-img {
-  width: 450px;
-  height: 550px;
+  width: 550px;
+  height: 650px;
 }
 
 .divCol-1 {
@@ -188,6 +192,47 @@ a {
   height: 34px;
 }
 
+.sectionOther2 .mainParent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px 10% 0;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+  border: 0 solid #e5e7eb;
+}
+
+.mainParent .getStarted h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: var(--bs-dark);
+  margin-bottom: 1px;
+}
+
+.mainParent .getStarted p {
+  font-size: 1.2rem;
+  width: 26rem;
+  font-weight: 500;
+  color: var(--bs-dark);
+  margin-bottom: 17px;
+}
+
+.mainParent .listItem .sousItem ul li {
+  margin-bottom: 5px;
+}
+
+.div-parent {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.mainParent .div-parent .phone-image {
+  width: 560px;
+  height: 703.88px;
+  position: relative;
+  width: 100%;
+}
 /*-----------------------------two section--------------------*/
 .sectionOther {
   min-height: 100vh;
@@ -293,20 +338,6 @@ a {
 .card-para {
   position: absolute;
   padding: 30px;
-}
-
-.sectionOther2 {
-  background: var(--bs-cyan);
-}
-
-.sectionOther2 .div-parent {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.phone-image {
-  width: 350px;
-  height: 450px;
 }
 
 .authHeader .mainNavigation {

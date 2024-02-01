@@ -1,10 +1,12 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Header from './component/Header';
 import './component/Header.css';
+import './component/UserFeedback.css';
 import './component/authPage.css';
 import './component/footer.css';
 import './component/other.css';
 import About from './component/pages/About';
+import Data from './component/pages/Data';
 import ErrorPage from './component/pages/Error';
 import Home from './component/pages/Home';
 import Rates from './component/pages/Rates';
@@ -43,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: 'register',
         element: <Register/>
+      },
+      {
+        path: 'data',
+        element: <Data/>
       }
     ]
   }
