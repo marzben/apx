@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import UserFeedback from "../UserFeedback";
 
 function About() {
+  useEffect(() => {
+    const header = document.querySelector(".mainHeader");
+
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        header.style.backgroundColor = "transparent";
+        header.classList.add("text-white");
+        header.classList.remove("bg-white", "text-black");
+      } else {
+        header.style.backgroundColor = "white";
+        header.classList.add("bg-white", "text-black");
+        header.classList.remove("text-white");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <main className="mainSectionAbout">
       <section className="mainRates">

@@ -16,10 +16,22 @@ module.exports = {
     extend: {
       colors: {
         'regal-blue': '#243c5a',
+        'custom-red': '#FF0000',
       },
       padding: {
         '5px': '5px',
-      }
+      },
+      width: {
+        'custom-width': '576px',
+        'select-width': '236px',
+        'select-width-1': '496px'
+      },
+      height: {
+        'custom-height': '663px',
+        'select-height': '54px',
+      },
+      
+      
     },
   },
   plugins: [

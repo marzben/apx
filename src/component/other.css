@@ -244,3 +244,23 @@
   justify-content: center;
   align-items: center;
 }
+
+/* ---------Rates----------- */
+.RateMainSection {
+  min-height: 100vh;
+}
+
+.mainSectionRates {
+  margin: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainCard {
+  width: 576px;
+  height: 663px;
+  background: #20c997;
+  border-radius: 15px;
+}

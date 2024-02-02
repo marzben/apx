@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import Footer from "./Footer";
+import { ScrollContext } from "./ScrollContext";
 
 function Header() {
   const location = useLocation();
+  const { isScrolled } = useContext(ScrollContext);
+
   useEffect(() => {
     const header = document.querySelector(".mainHeader");
     const scrollToTopHandler = () => {
@@ -27,13 +30,18 @@ function Header() {
 
   const loginPath = location.pathname === "/login";
   const registerPath = location.pathname === "/register";
+  const headerClasses = isScrolled
+    ? "bg-transparent text-white"
+    : "bg-white text-black";
 
   const isAuthPage =
     location.pathname === "/login" || location.pathname === "/register";
 
   return (
     <>
-      <header className={`mainHeader ${isAuthPage ? "authHeader" : ""}`}>
+      <header
+        className={`mainHeader headerClasses ${isAuthPage ? "authHeader" : ""}`}
+      >
         <NavLink to="/">
           <img
             src="https://apexnetwork.co/_nuxt/logo.c3221d32.png"

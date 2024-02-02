@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Header from './component/Header';
 import './component/Header.css';
+import { ScrollProvider } from './component/ScrollContext';
 import './component/UserFeedback.css';
 import './component/authPage.css';
 import './component/footer.css';
@@ -13,7 +14,6 @@ import Rates from './component/pages/Rates';
 import Services from './component/pages/Services';
 import Login from './component/pages/auth/Login';
 import Register from './component/pages/auth/Register';
-
 
 const router = createBrowserRouter([
   {
@@ -55,9 +55,13 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router}>
+  return (
+  <ScrollProvider>
+  <RouterProvider router={router}>
   <App />
 </RouterProvider>
+  </ScrollProvider>
+);
 }
 
 export default App;
