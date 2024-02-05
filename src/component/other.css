@@ -264,3 +264,7 @@
   background: #20c997;
   border-radius: 15px;
 }
+
+.mainContact {
+  min-height: 100vh;
+}

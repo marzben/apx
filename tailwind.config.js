@@ -24,7 +24,7 @@ module.exports = {
       width: {
         'custom-width': '576px',
         'select-width': '236px',
-        'select-width-1': '496px'
+        'select-width-1': '496px',
       },
       height: {
         'custom-height': '663px',

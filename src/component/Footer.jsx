@@ -30,7 +30,7 @@ const FooterSection = ({ title, items }) => (
     <ul>
       {items.map((item, index) => (
         <li key={index}>
-          <Link to="">{item}</Link>
+          <Link to={`${item.replace("Contact Us", "contactus")}`}>{item}</Link>
         </li>
       ))}
     </ul>

@@ -81,7 +81,10 @@ const LoginPage = () => {
 
         {loginOption === "email" && (
           <div className="mb-4">
-            <label htmlFor="emailInput" className="block text-sm mb-2">
+            <label
+              htmlFor="emailInput"
+              className="block text-start text-sm mb-2"
+            >
               Email
             </label>
             <input
@@ -94,7 +97,10 @@ const LoginPage = () => {
         )}
 
         <div className="mb-4 relative">
-          <label htmlFor="passwordInput" className="block text-sm mb-2">
+          <label
+            htmlFor="passwordInput"
+            className="block text-sm text-start mb-2"
+          >
             Password
           </label>
           <div className="relative">
@@ -134,9 +140,9 @@ const LoginPage = () => {
           Sign In
         </button>
 
-        <div className="text-center text-sm">
+        <div className="text-center text-sm flex justify-center">
           <p>Don’t have an account?</p>
-          <Link to="/register" className="text-orange-400">
+          <Link to="/register" className="text-orange-400 ml-2 ">
             Sign Up
           </Link>
         </div>
