@@ -25,7 +25,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-opacity-50 bg-cover bg-center">
+    <div className="flex items-center justify-center min-h-screen bg-opacity-50 bg-cover bg-center background_img">
       <div className="bg-white p-8 rounded-lg w-full max-w-md text-center">
         <h1 className="text-3xl font-bold mb-4 text-center">
           Sign in to Apex Network

@@ -45,17 +45,15 @@ const Register = () => {
   };
 
   const handleRequestCode = () => {
-    // Logic to request verification code
     console.log("Verification code requested");
   };
 
   const handleSignup = () => {
-    // Logic to handle signup
     console.log("Signup button clicked");
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-opacity-50 bg-cover bg-center">
+    <div className="flex items-center justify-center min-h-screen bg-opacity-50 bg-cover bg-center background_img mt-20">
       <div className="bg-white p-8 rounded-lg w-full max-w-md text-center">
         <h1 className="text-2xl md:text-3xl font-heading font-bold text-header dark:text-neutral">
           Create your Account

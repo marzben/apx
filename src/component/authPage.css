@@ -66,3 +66,8 @@
   margin-right: 5px;
   color: #555;
 }
+
+.background_img {
+  background: transparent url("../images/crypto.jpg") no-repeat fixed center /
+    cover;
+}
